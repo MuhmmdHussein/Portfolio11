@@ -82,7 +82,7 @@ h3 {
 .mainbtn {
     color: white;
     text-decoration: none;
-    background-color: blueviolet;
+    background-color: green;
     font-weight: 800;
     font-weight: bold;
     display: inline-block;
@@ -95,20 +95,48 @@ h3 {
 
 }
 
+
+
+.mainbtn2{
+margin-left: 30px;
+background-color: blueviolet;
+text-decoration: none;
+font-weight: 800;
+font-weight: bold;
+display: inline-block;
+padding: 10px 20px;
+letter-spacing: 1px;
+border-radius: 15px;
+margin-bottom: 20px;
+margin-top: 30px;
+transition: ease;
+color: white;
+
+}
+
+
+
 .mainbtn:hover {
-    background-color: blueviolet;
+    background-color: green;
     transform: scale(1.1);
 
 
 }
 
+
+.mainbtn2:hover {
+    background-color:blueviolet;
+    transform: scale(1.1);
+
+
+}
 .Icons a {
 
     color: white;
     font-size: 30px;
     align-items: center;
     padding-right: 30px;
-    margin-left: 10px;
+    margin-left: 30px;
 
 
 }
@@ -281,8 +309,40 @@ width: 100%;
 
 .project-title{
 
-
-    align-items: center;
-    text-align: center;
+margin-left: 40px;
 
 }
+
+
+.infobtn{
+
+    margin-left: 30px;
+    background-color: blueviolet;
+    text-decoration: none;
+    font-weight: 800;
+    font-weight: bold;
+    display: inline-block;
+    padding: 10px 20px;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    transition: ease;
+    color: white;
+
+
+
+}
+
+
+
+.infobtn:hover{
+
+    background-color:blueviolet;
+    transform: scale(1.1);
+
+
+
+}
+
+
